@@ -4,7 +4,7 @@ about: This template is to create user stories
 title: ''
 labels: ''
 projects: 
-  - "ublibraries/hycastor-issues/Hycastor"
+  - "ublibraries/6"
 assignees: Martinsc8
 
 
