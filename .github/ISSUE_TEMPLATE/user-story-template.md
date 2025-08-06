@@ -3,7 +3,7 @@ name: User Story Template
 about: This template is to create user stories
 title: ''
 labels: ''
-projects: ["hycastor-issues"]
+projects: ["Hycastor"]
 assignees: Martinsc8
 
 
