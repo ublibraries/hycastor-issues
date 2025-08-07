@@ -2,7 +2,7 @@
 name: User Story Template
 about: This template is to create user stories
 title: ''
-labels: ''
+labels: 'user story'
 projects: "ublibraries/6"
 assignees: Martinsc8
 
