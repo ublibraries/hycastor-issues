@@ -1,0 +1,49 @@
+name: Bug Report
+description: File a bug report
+title: "[Bug]: "
+labels: ["bug", "triage"]
+projects: ["ublibraries/6"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for the bug report!
+  
+  - type: textarea
+    id: current-behavior
+    attributes:
+      label: Describe the problem you encountered...
+    validations:
+      required: true
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: What happened before the problem occurred?
+      description: What might we need to do to reproduce the problem?
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: What behavior were you expecting?
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: What additional context do you think would be helpful in troubleshooting this problem?
+      description: Was this in staging or production? Is this a problem in Fedora, Hyrax, or Blacklight, etc.?
+  - type: textarea
+    id: previous-troubleshooting
+    attributes:
+      label: Have you taken any steps to solve this problem yourself? If so, what steps did you take?
+  - type: dropdown
+    id: severity
+    attributes:
+      label: On a scale of "get to when you can" to "oh no! everything is on fire now!" how emergent is this problem?
+      description: What is the severity of this issue? 1 is the lowest, 5 is the highest
+      multiple: true
+      options:
+        - annoying, but ignorable (1)
+        - this problem should really consider going to the doctor (2)
+        - this problem is blocking my work, but I have other things to do anyways (3)
+        - if this is not fixed soon I might scream (4)
+        - everything is broken and the world is ending (5)
