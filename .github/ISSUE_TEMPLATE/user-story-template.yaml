@@ -16,15 +16,15 @@ body:
       label: Please describe your story...
     validations:
       required: true
-  - type:
+  - type: input
     id: who
     attributes:
       label: Who is this user story concerning?
-  - type:
+  - type: input
     id: what
     attributes:
       label: What is the who trying to do?
-  - type:
+  - type: input
     id: why
     attributes:
       label: Why does the who need to do the what?
