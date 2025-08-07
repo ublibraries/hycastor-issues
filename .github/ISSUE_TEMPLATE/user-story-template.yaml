@@ -7,6 +7,9 @@ assignees:
   - Martinsc8
 body:
   - type: markdown
+    attributes:
+      value: |
+        Thanks for adding a user story!
   - type: textarea
     id: user-story
     attributes:
