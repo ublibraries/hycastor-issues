@@ -1,17 +1,27 @@
----
 name: User Story Template
-about: This template is to create user stories
-title: ''
-labels: 'user story'
-projects: "https://github.com/orgs/ublibraries/projects/6"
-assignees: Martinsc8
-
-
-
----
-Please describe your story:
-
-
-Who:
-What:
-Why:
+description: This template is to create user stories
+title: 'As a...'
+labels: ['user story']
+projects: ["ublibraries/6"]
+assignees: 
+  - Martinsc8
+body:
+  - type: markdown
+  - type: textarea
+    id: user-story
+    attributes:
+      label: Please describe your story...
+    validations:
+      required: true
+  - type:
+    id: who
+    attributes:
+      label: Who is this user story concerning?
+  - type:
+    id: what
+    attributes:
+      label: What is the who trying to do?
+  - type:
+    id: why
+    attributes:
+      label: Why does the who need to do the what?
